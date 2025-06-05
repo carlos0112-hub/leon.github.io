@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samaná - Cocina de Mar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Montserrat', sans-serif;
+    }
+    body {
+      background-color: #0e3a47;
+      color: white;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      width: 200px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #062b33;
+      padding: 15px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 2rem;
+    }
+    .menu img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 12px;
+    }
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .location iframe {
+      width: 100%;
+      border: none;
+      border-radius: 12px;
+      height: 300px;
+    }
+    .contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact input, .contact textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+    .contact button {
+      background: #f9a825;
+      border: none;
+      padding: 12px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #062b33;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="LOGO OFICIAL.png" alt="Logo Samaná">
+    <h1>Samaná - Cocina de Mar</h1>
+  </header>
+
+  <nav>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#menu">Menú</a>
+    <a href="#ubicacion">Ubicación</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="nosotros">
+    <h2>Nosotros</h2>
+    <p style="text-align: center;">
+      Somos un restaurante especializado en cocina de mar, ubicado en el corazón de la ciudad. En Samaná, combinamos tradición y frescura para ofrecerte una experiencia gastronómica inolvidable.
+    </p>
+  </section>
+
+  <section id="menu">
+    <h2>Menú</h2>
+    <div class="menu">
+      <img src="https://source.unsplash.com/300x200/?seafood" alt="Plato 1">
+      <img src="https://source.unsplash.com/300x200/?fish-dish" alt="Plato 2">
+      <img src="https://source.unsplash.com/300x200/?shrimp" alt="Plato 3">
+      <img src="https://source.unsplash.com/300x200/?lobster" alt="Plato 4">
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <h2>Ubicación</h2>
+    <div class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.865499558224!2d-74.0720927852386!3d4.711000043381225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f99f9d9c2e9a9%3A0xbec0d45c1b76478c!2sBogotá!5e0!3m2!1ses!2sco!4v1600000000000!5m2!1ses!2sco" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea rows="5" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Samaná - Cocina de Mar. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
